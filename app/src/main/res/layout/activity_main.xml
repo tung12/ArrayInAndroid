@@ -6,13 +6,29 @@
     android:layout_height="match_parent"
     tools:context="com.example.ntien.arrayinandroid.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <EditText
+        android:id="@+id/txtInsert"
+        android:layout_width="257dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="252"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="6dp" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="121dp"
+        android:layout_height="49dp"
+        android:text="Add"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="138dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="-236dp"
+        tools:layout_editor_absoluteY="97dp" />
 
 </android.support.constraint.ConstraintLayout>
